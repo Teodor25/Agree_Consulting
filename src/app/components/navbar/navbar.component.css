@@ -1,0 +1,25 @@
+.nav-link {
+    color: white; 
+    transition-duration: 0.5s;
+  }
+  .nav-item {
+    padding: 0 10px; 
+    transition-duration: 0.5s;
+    border-bottom: 1px solid transparent;
+  }
+  .nav-link:hover {
+    background: none; 
+    transform: scale(1.2); 
+    color: white !important;
+    text-decoration: none; 
+  }
+  .navbar-brand {
+    width: 125px; 
+    transition-duration: 0.5s;
+  }
+  .navbar-brand:hover {
+    transform: scale(1.1); 
+  }
+  .nav-item:hover {
+    border-bottom: 1px solid white;
+  }

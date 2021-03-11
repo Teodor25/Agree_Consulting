@@ -1,0 +1,33 @@
+<mdb-navbar id="navbar" SideClass="navbar navbar-expand-lg navbar-dark  rgba-black-strong fixed-top">
+    <mdb-navbar-brand>
+      <a class="navbar-brand" href="#">
+        <img src="/assets/icons/fullLogoEd2.svg" class="logo">
+      </a>
+    </mdb-navbar-brand>
+    <links>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/basic">Ydelser</a>
+        </li>
+        <li class="nav-item"> 
+          <a class="nav-link waves-light" routerLink="/contained">Inspiration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/contact">Kontakt</a>
+        </li>
+        <!--
+          <li class="" style="margin-left:20px;" (change)="changeLanguage($event.target.value)">
+            <select class="custom-select">
+              <option value="dk" [selected]="lang == 'dk'">Dansk</option>
+              <option value="en" [selected]="lang == 'en'">Engelsk</option>   
+              <option value="es" [selected]="lang == 'es'">Spansk</option> 
+            </select> 
+          </li>
+        -->
+      </ul>
+    </links>
+</mdb-navbar>
