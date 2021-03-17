@@ -1,0 +1,42 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/img/business05.jpg') !important; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+.container, .title {
+    color: white; 
+}
+
+.title {
+    text-align: left;
+    font-size: 72px;
+}
+
+.references {
+    width: 100%;
+    height: 300px; 
+    background-color: aliceblue;
+}
+
+/* Logostrip slider */ 
+.wrapper {
+    overflow: hidden;
+}
+
+.sliding-background {
+    background: url("/assets/img/logo-strip.svg") repeat-x;
+    height: 125px;
+    width: 5076px;
+    animation: slide 35s linear infinite;
+}
+
+@keyframes slide{
+    0%{
+    transform: translate3d(0, 0, 0);
+    }
+    100%{
+    transform: translate3d(-2772px, 0, 0);
+    }
+}
+/* end logostrip */ 

@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { LogoStripComponent } from './components/logo-strip/logo-strip.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     FooterComponent,
     NavbarComponent,
     ContactFormComponent,
+    LogoStripComponent,
   ],
   imports: [
     BrowserModule,
