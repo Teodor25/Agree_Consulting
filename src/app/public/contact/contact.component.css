@@ -1,52 +1,28 @@
 .nav-top {
     justify-content: center;
 }
-
 .hero {
     padding-top: 58px;
     background-size: cover; 
     background-position: center center; 
 }
-
 .space {
     margin:40px ;
 }
-
-/* Change autocomplete styles in WebKit */
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border: none;
-  border-bottom: 1px solid #ced4da;
-  color: black; 
-  -webkit-text-fill-color: rgba(0, 0, 0, 1);
-  transition: background-color 5000s ease-in-out 0s;
-}
-
 .contact-img {
     background-image: url('/assets/img/business05.jpg'); 
     background-size: cover; 
     background-position: center center; 
 }
-
-
 .custom-input {
     border: none;
     height: 3px;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);;
 }
-
 .custom-input:focus {
     outline: none;
 }
-
 textarea {
     height: 150px;
 }
