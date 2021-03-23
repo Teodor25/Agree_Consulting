@@ -1,7 +1,9 @@
 .container {
     padding: 20px 0;
 }
-
+.row {
+    margin-right: 0 !important;
+}
 .page-footer {
 }
 

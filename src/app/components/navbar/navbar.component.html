@@ -1,10 +1,16 @@
-<mdb-navbar id="navbar" SideClass="navbar navbar-expand-lg navbar-dark  rgba-black-strong fixed-top">
-    <mdb-navbar-brand>
-      <a class="navbar-brand" href="#">
-        <img src="/assets/icons/fullLogoEd2.svg" class="logo">
-      </a>
-    </mdb-navbar-brand>
-    <links>
+<nav class="navbar fixed-top navbar-expand-lg bg-dark mb-3">
+  <div class="container">
+    <a class="navbar-brand" [routerLink]="'.'">
+      <img src="/assets/icons/fullLogoEd2.svg" class="logo">
+    </a>
+  
+    <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
+    <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+      &#9776;
+    </button>
+  
+    <!-- Step 2: Add the ngbCollapse directive to the element below. -->
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link waves-light" routerLink="/">Home</a>
@@ -18,15 +24,7 @@
         <li class="nav-item">
           <a class="nav-link waves-light" routerLink="/contact">Contact</a>
         </li>
-        <!--
-          <li class="" style="margin-left:20px;" (change)="changeLanguage($event.target.value)">
-            <select class="custom-select">
-              <option value="dk" [selected]="lang == 'dk'">Dansk</option>
-              <option value="en" [selected]="lang == 'en'">Engelsk</option>   
-              <option value="es" [selected]="lang == 'es'">Spansk</option> 
-            </select> 
-          </li>
-        -->
       </ul>
-    </links>
-</mdb-navbar>
+    </div>
+  </div>
+</nav>
