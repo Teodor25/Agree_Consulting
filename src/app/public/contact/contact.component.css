@@ -34,3 +34,19 @@ select:-webkit-autofill:focus {
     background-size: cover; 
     background-position: center center; 
 }
+
+
+.custom-input {
+    border: none;
+    height: 3px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);;
+}
+
+.custom-input:focus {
+    outline: none;
+}
+
+textarea {
+    height: 150px;
+}
